@@ -5,7 +5,8 @@
     "anhtd"
   ],
   "description": "",
-  "main": "angular-mqtt-config.js",
+  "main": "",
+  "moduleType": [],
   "keywords": [
     "mqtt-angularjs"
   ],
@@ -16,5 +17,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
 }
+
