@@ -1,7 +1,7 @@
 /**
  * Created by shellus on 2016-03-16.
  */
-angular.module('ngMQTT', [])
+angular.module('webClient', [])
     .config(['$provide', function($provide){
         $provide.provider('MQTT', function(){
 
