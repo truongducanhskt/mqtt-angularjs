@@ -1,9 +1,9 @@
 /**
  * Created by shellus on 2016-03-16.
  */
-angular.module('mqttAngularjs', [])
+angular.module('ngMQTT', [])
     .config(['$provide', function($provide){
-        $provide.provider('mqttAngularjsProvider', function(){
+        $provide.provider('MQTT', function(){
 
             var settings = {
                 href: ""
@@ -19,11 +19,11 @@ angular.module('mqttAngularjs', [])
     }])
 
     .service('MQTTService',
-        ['$q', '$rootScope', 'mqttAngularjsProvider', function($q, $rootScope, mqttAngularjsProvider) {
+        ['$q', '$rootScope', 'MQTT', function($q, $rootScope, MQTT) {
             var Service = {};
             var callbacks = {};
 
-            var client = mqtt.connect(mqttAngularjsProvider.href); // you add a ws:// url here
+            var client = mqtt.connect(MQTT.href); // you add a ws:// url here
 
             client.on("message", function(topic, payload) {
                 try {
