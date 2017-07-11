@@ -5,7 +5,7 @@
     "anhtd"
   ],
   "description": "",
-  "main": "mqtt.js",
+  "main": "browserMqtt.js",
   "keywords": [
     "mqtt-angularjs"
   ],
