@@ -1,36 +1,20 @@
 {
-    "name": "mqtt-angularjs",
-    "version": "0.3.10",
-    "main": "./ngStorage.js",
-    "keywords": [
-        "angular",
-        "cookie",
-        "storage",
-        "local",
-        "localstorage",
-        "session",
-        "sessionstorage"
-    ],
-    "ignore": [
-        "CHANGELOG.md",
-        "components",
-        "node_modules",
-        "test",
-        "package.json",
-        "Gruntfile.js",
-        ".bowerrc",
-        ".gitignore",
-        ".travis.yml"
-    ],
-    "dependencies": {
-        "angular": ">=1.0.8"
-    },
-    "devDependencies": {
-        "angular-mocks": ">=1.0.8",
-        "chai": "^2.0.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/gsklee/ngStorage.git"
-    }
+  "name": "mqtt-angularjs",
+  "homepage": "https://github.com/truongducanhskt/mqtt-angularjs",
+  "authors": [
+    "anhtd"
+  ],
+  "description": "",
+  "main": "angular-MQTT.js",
+  "keywords": [
+    "mqtt-angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
