@@ -1,5 +1,5 @@
 {
-    "name": "ngstorage",
+    "name": "mqtt-angularjs",
     "version": "0.3.10",
     "main": "./ngStorage.js",
     "keywords": [
